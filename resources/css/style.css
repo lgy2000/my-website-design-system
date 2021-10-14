@@ -127,22 +127,22 @@ nav li a{
 
 
 #dark-1{
-    background-color: hsl(140, 90%, 20%);
+    background-color: hsl(140, 90%, 15%);
 }
 #dark-2{
-    background-color: hsl(200, 90%, 20%);
+    background-color: hsl(200, 90%, 15%);
 }
 #dark-3{
-    background-color: hsl(230,90%, 20%);
+    background-color: hsl(230,90%, 15%);
 }
 #dark-4{
-    background-color: hsl(290, 90%, 20%);
+    background-color: hsl(290, 90%, 15%);
 }
 #dark-5{
-    background-color: hsl(350,90%, 20%);
+    background-color: hsl(350,90%, 15%);
 }
 #dark-6{
-    background-color: hsl(20, 90%, 20%);
+    background-color: hsl(20, 90%, 15%);
 }
 
 /* Fonts */
