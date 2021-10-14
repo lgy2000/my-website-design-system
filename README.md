@@ -1,6 +1,6 @@
-# My Cheatsheets
+# My Website Design System
 
-This webpage project includes HTML cheatsheet and is build with HTML and CSS. 
+This webpage project includes My Website Design System and is build with HTML and CSS. 
 
 ## Technologies
 
@@ -9,10 +9,12 @@ This webpage project includes HTML cheatsheet and is build with HTML and CSS.
 
 ## Features
 
-- HTML Cheatsheet
-- CSS Cheatsheet (Coming Soon)
-- JavaScript Cheatsheet (Coming Soon)
+- Colors
+- Fonts
+- Text Styles
+- Table Styles
+- File System Structure
 
 ## Sources
 
-This is a challenge project from Chapter 8.12 in Full-Stack Engineer Career Path from [Codecademy](https://www.codecademy.com/).
+This is a challenge project from Chapter 10.6 in Full-Stack Engineer Career Path from [Codecademy](https://www.codecademy.com/).
