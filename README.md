@@ -1,6 +1,6 @@
 # My Website Design System
 
-This webpage project includes My Website Design System and is build with HTML and CSS. 
+This webpage project includes My Website Design System and is build with HTML and CSS.
 
 ## Technologies
 
