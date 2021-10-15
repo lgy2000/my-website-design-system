@@ -1,75 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/css/reset.css" rel="stylesheet">
-    <link href="resources/css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      id="fonts-sans-serif&serif"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      id="fonts-cursive"
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Festive&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      id="fonts-others"
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,700;1,400&family=Montserrat+Alternates:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="resources/css/reset.css" rel="stylesheet" />
+    <link href="resources/css/style.css" rel="stylesheet" />
     <title>My Website Design System</title>
-</head>
-<body>
+  </head>
+
+  <body>
+    <!-- header -->
+
     <header>
-        <h1>My Website Design System</h1>
-        <nav>
-            <ul>
-                <li><a href='#colors'>Colors</a></li>
-                <li><a href='#fonts'>Fonts</a></li>
-                <li><a href='#text-styles'>Text Styles</a></li>
-                <li><a href='#table-styles'>Table Styles</a></li>
-                <li><a href='#file-system-structure'>File System Structure</a></li>
-            </ul>
-        </nav>
+      <h1>My Website Design System</h1>
+      <nav>
+        <ul>
+          <li><a href="#colors">Colors</a></li>
+          <li><a href="#fonts">Fonts</a></li>
+          <li><a href="#text-styles">Text Styles</a></li>
+          <li><a href="#table-styles">Table Styles</a></li>
+          <li><a href="#file-system-structure">File System Structure</a></li>
+        </ul>
+      </nav>
     </header>
+    <div id="shiftdown"></div>
+
+    <!-- Colors -->
 
     <main>
-        <section class='topics' id='colors'>
-            <h2>Colors</h2>
-            <h3>Light Tones</h3>
-            <ul>
-                <li><div id='light-1'></div><p>Light Mint</p><p>hsl(140, 85%, 85%)</p></li>
-                <li><div id='light-2'></div><p>Sky Blue</p><p>hsl(200, 85%, 85%)</p></li>
-                <li><div id='light-3'></div><p>Light Violet</p><p>hsl(230, 85%, 85%)</p></li>
-                <li><div id='light-4'></div><p>Light Magenta</p><p>hsl(290, 85%, 85%)</p></li>
-                <li><div id='light-5'></div><p>Light Coral</p><p>hsl(350, 85%, 85%)</p></li>
-                <li><div id='light-6'></div><p>Light Orange</p><p>hsl(20, 85%, 85%)</p></li>
-            </ul>
-            <h3>Medium Tones</h3>
-            <ul>
-                <li><div id='medium-1'></div><p>Mint Green</p><p>hsl(140, 90%, 60%)</p></li>
-                <li><div id='medium-2'></div><p>Light Blue</p><p>hsl(200, 90%, 60%)</p></li>
-                <li><div id='medium-3'></div><p>Violet Blue</p><p>hsl(230, 90%, 60%)</p></li>
-                <li><div id='medium-4'></div><p>Magenta Purple</p><p>hsl(290, 90%, 60%)</p></li>
-                <li><div id='medium-5'></div><p>Coral Pink</p><p>hsl(350, 90%, 60%)</p></li>
-                <li><div id='medium-6'></div><p>Orange</p><p>hsl(20, 90%, 60%)</p></li>
-            </ul>
-            <h3>Dark Tones</h3>
-            <ul>
-                <li><div id='dark-1'></div><p>Dark Green</p><p>hsl(140, 90%, 15%)</p></li>
-                <li><div id='dark-2'></div><p>Dark Blue</p><p>hsl(200, 90%, 15%)</p></li>
-                <li><div id='dark-3'></div><p>Navy Blue</p><p>hsl(230, 90%, 15%)</p></li>
-                <li><div id='dark-4'></div><p>Dark Magenta</p><p>hsl(290, 90%, 15%)</p></li>
-                <li><div id='dark-5'></div><p>Red Wine</p><p>hsl(350, 90%, 15%)</p></li>
-                <li><div id='dark-6'></div><p>Dark Brown</p><p>hsl(20, 90%, 15%)</p></li>
-            </ul>
-        </section>
-        <section class='topics' id='fonts'>
-            <h2>Fonts</h2>
-            
-        </section>
-        <section class='topics' id='text-styles'>
-            <h2>Text Styles</h2>
-            
-        </section>
-        <section class='topics' id='table-styles'>
-            <h2>Table Styles</h2>
-            
-        </section>
-        <section class='topics' id='file-system-structure'>
-            <h2>File System Structure</h2>
-            
-        </section>
+      <section id="colors">
+        <h2>Colors</h2>
+        <h3>Light Tones</h3>
+        <ul>
+          <li>
+            <div id="light-1"></div>
+            <p>Light Mint</p>
+            <p>hsl(140, 85%, 85%)</p>
+          </li>
+          <li>
+            <div id="light-2"></div>
+            <p>Sky Blue</p>
+            <p>hsl(200, 85%, 85%)</p>
+          </li>
+          <li>
+            <div id="light-3"></div>
+            <p>Light Violet Blue</p>
+            <p>hsl(230, 85%, 85%)</p>
+          </li>
+          <li>
+            <div id="light-4"></div>
+            <p>Light Magenta</p>
+            <p>hsl(290, 85%, 85%)</p>
+          </li>
+          <li>
+            <div id="light-5"></div>
+            <p>Light Coral</p>
+            <p>hsl(350, 85%, 85%)</p>
+          </li>
+          <li>
+            <div id="light-6"></div>
+            <p>Light Orange</p>
+            <p>hsl(20, 85%, 85%)</p>
+          </li>
+        </ul>
+        <h3>Medium Tones</h3>
+        <ul>
+          <li>
+            <div id="medium-1"></div>
+            <p>Mint Green</p>
+            <p>hsl(140, 90%, 60%)</p>
+          </li>
+          <li>
+            <div id="medium-2"></div>
+            <p>Light Blue</p>
+            <p>hsl(200, 90%, 60%)</p>
+          </li>
+          <li>
+            <div id="medium-3"></div>
+            <p>Violet Blue</p>
+            <p>hsl(230, 90%, 60%)</p>
+          </li>
+          <li>
+            <div id="medium-4"></div>
+            <p>Magenta Purple</p>
+            <p>hsl(290, 90%, 60%)</p>
+          </li>
+          <li>
+            <div id="medium-5"></div>
+            <p>Coral Pink</p>
+            <p>hsl(350, 90%, 60%)</p>
+          </li>
+          <li>
+            <div id="medium-6"></div>
+            <p>Orange</p>
+            <p>hsl(20, 90%, 60%)</p>
+          </li>
+        </ul>
+        <h3>Dark Tones</h3>
+        <ul>
+          <li>
+            <div id="dark-1"></div>
+            <p>Dark Green</p>
+            <p>hsl(140, 90%, 15%)</p>
+          </li>
+          <li>
+            <div id="dark-2"></div>
+            <p>Dark Blue</p>
+            <p>hsl(200, 90%, 15%)</p>
+          </li>
+          <li>
+            <div id="dark-3"></div>
+            <p>Navy Blue</p>
+            <p>hsl(230, 90%, 15%)</p>
+          </li>
+          <li>
+            <div id="dark-4"></div>
+            <p>Dark Magenta</p>
+            <p>hsl(290, 90%, 15%)</p>
+          </li>
+          <li>
+            <div id="dark-5"></div>
+            <p>Red Wine</p>
+            <p>hsl(350, 90%, 15%)</p>
+          </li>
+          <li>
+            <div id="dark-6"></div>
+            <p>Dark Brown</p>
+            <p>hsl(20, 90%, 15%)</p>
+          </li>
+        </ul>
+      </section>
 
+      <!-- Fonts -->
+
+      <section id="fonts">
+        <h2>Fonts</h2>
+        <ul>
+          <li>
+            <h3>Poppins</h3>
+            <div id="font-1">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Work Sans</h3>
+            <div id="font-2">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Playfair Display</h3>
+            <div id="font-3">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Playfair Display SC</h3>
+            <div id="font-4">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Festive</h3>
+            <div id="font-5">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li>
+            <h3>Ephesis</h3>
+            <div id="font-6">
+              <p class="normal">The quick brown fox jumps over the lazy dog.</p>
+              <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+              <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+          </li>
+          <li class="others">
+            <h3>Others</h3>
+            <div>
+              <p id="font-7">Montserrat</p>
+              <p id="font-8">Montserrat Alternates</p>
+              <p id="font-9">Roboto</p>
+              <p id="font-10">Andada Pro</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Text Styles -->
+
+      <section id="text-styles">
+        <h2>Text Styles</h2>
+      </section>
+
+      <!-- Table Styles -->
+
+      <section id="table-styles">
+        <h2>Table Styles</h2>
+      </section>
+
+      <!-- File System Structure -->
+
+      <section id="file-system-structure">
+        <h2>File System Structure</h2>
+      </section>
     </main>
-</body>
+  </body>
 </html>
