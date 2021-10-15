@@ -274,6 +274,7 @@ td {
   line-height: 1.8em;
 }
 
+
 #table-styles section {
   width: max-content;
   margin: 0 auto;
@@ -285,7 +286,7 @@ td {
 
 code {
   font-size: 20px;
-  line-height: 1.8em;
+  line-height: 1.4em;
   display: inline-block;
   width: 500px;
   margin: 30px 50px 50px;
@@ -298,3 +299,4 @@ code {
 }
 
 /* File System Structure */
+
