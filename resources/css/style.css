@@ -76,7 +76,7 @@ nav a {
 /* Colors */
 
 #colors ul {
-  background-color: rgb(245, 250, 255);
+  background-color: hsl(200, 100%, 98%);
   display: flex;
   width: max-content;
   padding: 10px;
@@ -274,7 +274,6 @@ td {
   line-height: 1.8em;
 }
 
-
 #table-styles section {
   width: max-content;
   margin: 0 auto;
@@ -293,10 +292,33 @@ code {
 }
 
 #code {
-  background-color: rgb(245, 250, 255);
+  background-color: hsl(200, 100%, 98%);
   vertical-align: top;
   display: inline-block;
 }
 
 /* File System Structure */
 
+#file-system-structure section {
+  margin: 30px 50px 50px;
+}
+
+#file-system-structure ol,
+#file-system-structure ul {
+  margin: 0 40px;
+}
+
+#file-system-structure ol li {
+  list-style: decimal;
+}
+
+#file-system-structure ul li {
+  list-style: circle;
+}
+
+#file-system-structure h2,
+#file-system-structure h3,
+#file-system-structure p {
+  text-align: left;
+  text-indent: 15px;
+}
