@@ -66,7 +66,7 @@ nav a {
   text-decoration: none;
 }
 
-section {
+.topics {
   padding: 50px 70px;
   margin: 35px;
   border: 1px black solid;
@@ -225,6 +225,7 @@ section {
   text-decoration: underline;
   text-decoration-style: double;
   text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.08em;
 }
 
 #text-styles ul {
@@ -271,6 +272,9 @@ td{
   font-size: 20px;
   line-height: 1.8em;
 }
+
+
+
 
 /* File System Structure */
 
