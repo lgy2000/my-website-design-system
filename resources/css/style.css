@@ -77,11 +77,10 @@ nav a {
 
 #colors ul {
   background-color: rgb(245, 250, 255);
-  position: static;
   display: flex;
   width: max-content;
   padding: 10px;
-  margin: 20px auto 50px;
+  margin: 30px auto 50px;
 }
 
 #colors li {
@@ -165,12 +164,12 @@ nav a {
 #fonts li {
   display: inline-block;
   width: 600px;
-  margin: 20px 20px 50px;
+  margin: 30px 20px 50px;
 }
 
 #fonts .others {
   display: block;
-  margin: 20px auto 50px;
+  margin: 30px auto 50px;
 }
 
 .bold {
@@ -236,7 +235,7 @@ nav a {
 #text-styles li {
   display: inline-block;
   width: 500px;
-  margin: 20px 20px 50px;
+  margin: 30px 20px 50px;
 }
 
 #text-styles .description li {
@@ -249,8 +248,8 @@ nav a {
 /* Table Styles */
 
 table{
-  width: 400px;
-  margin: 20px auto 50px;
+  /*margin: 30px auto 50px;
+  */width: 500px;
 }
 
 th,tr,td{
@@ -273,8 +272,11 @@ td{
   line-height: 1.8em;
 }
 
-
-
+#table-styles section{
+  display: inline-block;
+  width: 500px;
+  margin: 30px auto 50px;
+}
 
 /* File System Structure */
 
