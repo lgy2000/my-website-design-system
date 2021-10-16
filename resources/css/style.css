@@ -18,7 +18,7 @@ header {
   height: 100px;
 }
 
-header,h1,nav{
+header,header h1,header nav{
   background-color: hsl(230, 90%, 15%);
 }
 
