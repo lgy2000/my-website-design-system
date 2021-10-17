@@ -74,11 +74,22 @@ nav h2 {
   padding: 30px 16px;
 }
 
-.topics {
+section.topics {
   padding: 50px 70px;
   margin: 35px;
   border: 1px black solid;
   border-radius: 22px;
+}
+
+/* Test */
+
+#test {
+  display: block;
+  width: 1000px;
+  height: 10px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
 /* Colors */
