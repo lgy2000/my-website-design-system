@@ -12,9 +12,59 @@ body {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1300px) {
   html {
     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header,
+  nav,
+  nav li,
+  nav a {
+    margin: 0;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 1.22rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    line-height: 1em;
+  }
+
+  nav li h2 {
+    font-size: 1.22rem;
+    padding: 0.5rem 0.3rem;
+    margin: 0;
+    line-height: 1em;
+  }
+
+  #shiftdown {
+    max-height: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #shiftdown {
+    max-height: 4.4rem;
+  }
+
+  * {
+    min-width: none;
+  }
+
+  #fonts ul,
+  #fonts li,
+  #text-styles ul,
+  #text-styles li,
+  #table-styles div,
+  #code code,
+  p {
+    width: 100%;
+    min-width: 0;
+    max-width: auto;
   }
 }
 
@@ -88,39 +138,10 @@ nav h2 {
 }
 
 section.topics {
-  padding: 2.5rem 3.5rem;
+  padding: 2rem 2.75rem;
   margin: 2rem;
   border: 1px black solid;
   border-radius: 1.25rem;
-}
-
-/* Test */
-
-div#test1 {
-  display: block;
-  width: 500px;
-  height: 10px;
-  background-color: black;
-  margin: 5px;
-  padding: 0;
-}
-
-div#etesta {
-  display: block;
-  width: 1200px;
-  height: 10px;
-  background-color: black;
-  margin: 5px;
-  padding: 0;
-}
-
-div#etesdfsta {
-  display: block;
-  width: 800px;
-  height: 10px;
-  background-color: black;
-  margin: 5px;
-  padding: 0;
 }
 
 /* Colors */
@@ -128,7 +149,7 @@ div#etesdfsta {
 #colors ul {
   background-color: hsl(200, 100%, 98%);
   text-align: center;
-  width: 84%;
+  width: 85%;
   padding: 0.5rem;
   margin: 1.5rem auto 2.5rem;
 }
@@ -286,7 +307,8 @@ div#etesdfsta {
 
 #text-styles li {
   display: inline-block;
-  width: 500px;
+  width: 40%;
+  min-width: 400px;
   margin: 1.5rem 1rem 2.5rem;
 }
 
@@ -340,7 +362,7 @@ code {
   font-size: 1rem;
   line-height: 1.4em;
   display: inline-block;
-  min-width: 400px;
+  min-width: 375px;
   margin: 1.5rem 2.5rem 2.5rem;
 }
 
