@@ -109,11 +109,12 @@ body {
   #table-styles div,
   #table,
   table,
-  #code {
+  #code,
+  p {
     text-align: center;
     box-sizing: border-box;
-    width: auto;
-    min-width: none;
+    width: 100%;
+    min-width: 0;
     max-width: 100%;
     padding: 0;
     margin: 0 auto;
@@ -126,9 +127,9 @@ body {
   #text-styles li {
     text-align: center;
     box-sizing: border-box;
-    width: 100px;
-    min-width: 100px;
-    max-width: 200px;
+    width: 50px;
+    min-width: 50px;
+    max-width: 100px;
     padding: 0;
     margin: 0 auto;
   }
