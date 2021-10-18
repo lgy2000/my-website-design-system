@@ -118,7 +118,7 @@ body {
   table,
   #code {
     text-align: center;
-    width: auto;
+    width: 100%;
     min-width: none;
     max-width: 100%;
     padding: 0;
@@ -127,7 +127,7 @@ body {
 
   code {
     text-align: left;
-    width: auto;
+    width: 100%;
     min-width: none;
     max-width: 100%;
     padding: 0;
