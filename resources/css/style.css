@@ -77,18 +77,27 @@ body {
   #text-styles,
   #table-styles,
   #file-system-structure {
+    text-align: center;
     width: auto;
     min-width: none;
     padding: 20px;
     margin: 0;
-    border: none white 0px;
+    border: none 0px;
   }
 
+  h2 {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  #colors section,
+  #colors ul,
+  #colors li,
+  #colors div,
   #fonts ul,
   #fonts li,
   #fonts .others,
   #fonts div,
-  #fonts p,
   #text-styles ul,
   #text-styles li,
   #text-styles .description,
@@ -98,12 +107,24 @@ body {
   #text-styles li h3,
   #text-styles li p,
   #table-styles div,
+  #table,
+  table,
   #code {
-    width: 100%;
-    min-width: 0;
+    text-align: center;
+    width: auto;
+    min-width: none;
     max-width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+  }
+
+  code {
+    text-align: left;
+    width: auto;
+    min-width: none;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
   }
 }
 
@@ -362,8 +383,8 @@ section.topics {
 /* Table Styles */
 
 table {
-  width: 80%;
-  min-width: 350px;
+  width: auto;
+  min-width: 320px;
   margin: 1.5rem 2.5rem 2.5rem;
 }
 
@@ -399,15 +420,15 @@ td {
 }
 
 code {
+  background-color: hsl(200, 100%, 98%);
   font-size: 1rem;
   line-height: 1.4em;
   display: inline-block;
   min-width: 375px;
-  margin: 1.5rem 2.5rem 2.5rem;
+  padding: 1.5rem 2.5rem 2.5rem;
 }
 
 #code {
-  background-color: hsl(200, 100%, 98%);
   vertical-align: top;
   display: inline-block;
 }
