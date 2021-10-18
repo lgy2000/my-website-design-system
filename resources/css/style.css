@@ -64,12 +64,6 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-  /* Reset font-size */
-
-  html {
-    font-size: 14px;
-  }
-
   /* Shift double size as before down */
 
   #shiftdown {
@@ -84,8 +78,7 @@ body {
   #table-styles,
   #file-system-structure {
     text-align: center;
-    width: 100%;
-    min-width: none;
+    width: auto;
     min-width: none;
     padding: 20px;
     margin: 0;
@@ -94,7 +87,7 @@ body {
 
   h2 {
     text-align: left;
-    padding: 0 25px;
+    padding: 0 20px;
   }
 
   #colors section,
@@ -118,7 +111,7 @@ body {
   table,
   #code {
     text-align: center;
-    width: 100%;
+    width: auto;
     min-width: none;
     max-width: 100%;
     padding: 0;
@@ -127,7 +120,7 @@ body {
 
   code {
     text-align: left;
-    width: 100%;
+    width: auto;
     min-width: none;
     max-width: 100%;
     padding: 0;
@@ -427,15 +420,15 @@ td {
 }
 
 code {
+  background-color: hsl(200, 100%, 98%);
   font-size: 1rem;
   line-height: 1.4em;
   display: inline-block;
   min-width: 375px;
-  margin: 1.5rem 2.5rem 2.5rem;
+  padding: 1.5rem 2.5rem 2.5rem;
 }
 
 #code {
-  background-color: hsl(200, 100%, 98%);
   vertical-align: top;
   display: inline-block;
 }
