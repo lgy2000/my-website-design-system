@@ -6,48 +6,55 @@ body {
   font-size: 18px;
 }
 
-/* Media Queries*/
+/* Media Queries */
 
 @media only screen and (max-width: 1400px) {
+  /* Reset font-size */
+
   html {
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
+  /* Reset font-size */
+
   html {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
+  /* Reset nav bar */
+
   header,
   nav,
   nav li,
   nav a {
-    margin: 0;
     padding: 0;
+    margin: 0;
   }
 
   header h1 {
     font-size: 1.22rem;
+    line-height: 1em;
     padding: 0.5rem 1rem;
     margin: 0;
-    line-height: 1em;
   }
 
   nav li h2 {
     font-size: 1.22rem;
+    line-height: 1em;
     padding: 0.5rem 0.3rem;
     margin: 0;
-    line-height: 1em;
   }
 
   #shiftdown {
     max-height: 2.2rem;
   }
 
-  /* Line 50-56 resetting color tile width not working */
+  /* Resetting color tile width not working */
+
   .color li,
   .color div,
   .color p {
@@ -57,20 +64,13 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
+  /* Shift double size as before down */
+
   #shiftdown {
     min-height: 4.4rem;
   }
 
-  /* Line 66-71 resetting topic section margin and padding not working */
-
-  section,
-  section.topics,
-  .topics {
-    padding: 0;
-    margin: 0;
-  }
-
-  /* Line 66-71 resetting article width not working */
+  /* Resetting article width and border */
 
   #colors,
   #fonts,
@@ -79,8 +79,8 @@ body {
   #file-system-structure {
     width: auto;
     min-width: none;
-    margin: 0;
     padding: 20px;
+    margin: 0;
     border: none white 0px;
   }
 
@@ -98,14 +98,12 @@ body {
   #text-styles li h3,
   #text-styles li p,
   #table-styles div,
-  #code,
-  code {
-    width: auto;
+  #code {
+    width: 100%;
     min-width: 0;
     max-width: 100%;
-    margin: 0;
     padding: 0;
-    background-color: blue;
+    margin: 0;
   }
 }
 
