@@ -64,6 +64,12 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
+  /* Reset font-size */
+
+  html {
+    font-size: 14px;
+  }
+
   /* Shift double size as before down */
 
   #shiftdown {
@@ -78,7 +84,8 @@ body {
   #table-styles,
   #file-system-structure {
     text-align: center;
-    width: auto;
+    width: 100%;
+    min-width: none;
     min-width: none;
     padding: 20px;
     margin: 0;
@@ -87,7 +94,7 @@ body {
 
   h2 {
     text-align: left;
-    padding: 0 20px;
+    padding: 0 25px;
   }
 
   #colors section,
@@ -420,15 +427,15 @@ td {
 }
 
 code {
-  background-color: hsl(200, 100%, 98%);
   font-size: 1rem;
   line-height: 1.4em;
   display: inline-block;
   min-width: 375px;
-  padding: 1.5rem 2.5rem 2.5rem;
+  margin: 1.5rem 2.5rem 2.5rem;
 }
 
 #code {
+  background-color: hsl(200, 100%, 98%);
   vertical-align: top;
   display: inline-block;
 }
